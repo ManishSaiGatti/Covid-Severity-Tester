@@ -1,0 +1,155 @@
+<html>
+<head>
+    <title>More Info</title>
+    <style>
+        #topbar{
+            margin-top: -10;
+            margin-left: -10;
+            margin-right: -10;
+            margin-bottom: 10;
+            padding-top: 20;
+            padding-bottom: 20;
+            background-color: rgb(47,138,255);
+            color: rgb(218, 218, 218);
+            font-size: 24;
+            text-align: center;
+            border-bottom: 2px solid black;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:visited{
+            text-decoration: none;
+            color:rgb(218, 218, 218);
+        }
+        #name{
+            font-size: 20; 
+            margin-left: -75;
+            color: black;
+        }
+        #vertical{
+            border-left: 2px solid black; 
+            height: 8.4%; 
+            position:absolute; 
+            margin-top: -46;
+            left: 15.3%;
+        }
+        #websites{
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: -20;
+            padding-bottom: 20;
+            font-size: 24;
+            text-align: center;
+        }
+        #link1{
+            float: left;
+            width: 25%;
+            background-color: lightblue;
+            border: 2px solid black;
+        }
+        #link2{
+            float: left;
+            width: 25%;
+            margin-left: 12%;
+            background-color: rgb(167, 167, 255);
+            border: 2px solid black;
+        }
+        #link3{
+            float: right;
+            width: 25%;
+            background-color: lightgreen;
+            border: 2px solid black;
+        }
+        #link4{
+            float: left;
+            width: 25%;
+            margin-top: 4%;
+            background-color: lightsalmon;
+            border: 2px solid black;
+        }
+        #link5{
+            float: left;
+            width: 25%;
+            margin-left: 12%;
+            margin-top: 4%;
+            background-color: lightseagreen;
+            border: 2px solid black;
+        }
+        #link6{
+            float: right;
+            width: 25%;
+            margin-top: 4%;
+            background-color: lightpink;
+            border: 2px solid black;
+        }
+        #next{
+            position: fixed;
+            bottom: 0px;
+            right: 0px; 
+            font-size: 20;
+        }
+        #back{
+            position: fixed;
+            bottom: 0px;
+            left: 0px; 
+            font-size: 20;
+        }
+        .websites{
+            text-align: left;
+            margin-left: 2%;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(215,215,215)">
+    <div id="topbar">
+        <span id="name"><b>COVID Severity Tester</b></span>
+        <div id="vertical"></div>
+        <a href="/Home.html"><span style="margin-left: 100;margin-right: 100;"><b>Home</b></span></a>
+        <a href="/Testing.html"><span style="margin-left: 100;margin-right: 100;"><b>Testing</b></span></a>
+        <a href="/MoreInfo.html"><span style="margin-left: 100;margin-right: 100;"><b>More Info</b></span></a>
+        <a href="/Contact.html"><span style="margin-left: 100;margin-right: 100;"><b>Contact</b></span></a>
+    </div>
+    <div id="websites">
+        <p><b>Please visit these websites for more information on COVID-19:</b></p>
+        <div id="link1">
+            <a href="http://cdc.gov" target="blank" style="color: blue"><p>- CDC.gov</p></a>
+            <p class="websites">Centers for Disease Control and Prevention or CDC is probably the biggest source of information
+                related to COVID-19 or any disease. You will most likely find the most information here.
+            </p>
+        </div>
+        <div id="link2">
+            <a href="http://nih.gov" target="blank" style="color: blue"><p>- NIH.gov</p></a>
+            <p class="websites">National Institute of Health or NIH is a source that has articles which contain general information on the 
+                coronavirus and its impact. The articles are written by the medical research agency.
+            </p>
+        </div>
+        <div id="link3">
+            <a href="https://www.worldometers.info/coronavirus/" target="blank" style="color: blue"><p>- Cases Update</p></a>
+            <p class="websites">Worldometers is a source where you can view how many coronavirus cases, deaths, and recoveries there are. 
+                It also includes daily cases, daily deaths, closed cases, and active cases.
+            </p>
+        </div>
+        <div id="link4">
+            <a href="https://covid19.census.gov/" target="blank" style="color: blue"><p>- COVID-19 Census</p></a>
+            <p class="websites">The Census COVID-19 Data Hub has the demographic and economic resources analysis. It also contains new Covid-19 
+                surveys and estimates which are innovative statistical products.
+            </p>
+        </div>
+        <div id="link5">
+            <a href="https://coronavirus.jhu.edu/map.html" target="blank" style="color: blue"><p>- COVID-19 Map</p></a>
+            <p class="websites">This source contains a map which shows how many COVID-19 cases are in each country. It shows 
+                a list of the countries from the most to least cases along with global deaths and recoveries.
+            </p>
+        </div>
+        <div id="link6">
+            <a href="https://www.osha.gov/SLTC/covid-19/" target="blank" style="color: blue"><p>- OSHA.gov</p></a>
+            <p class="websites"> This database includes an overview, news and updates, hazard recognition, standards, medical information, control 
+                and prevention, and additional resources all relating to the coronavirus.
+            </p>
+        </div>
+    </div>
+    <button onclick="location.href='Contact.html'" type="button" id="next">Next</button>
+    <button onclick="location.href='Testing.html'" type="button" id="back">Back</button>
+</body>
+</html>

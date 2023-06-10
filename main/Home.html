@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        #topbar{
+            margin-top: -10;
+            margin-left: -10;
+            margin-right: -10;
+            margin-bottom: 10;
+            padding-top: 18;
+            padding-bottom: 18;
+            background-color: rgb(47,138,255);
+            color: rgb(218, 218, 218);
+            font-size: 24;
+            text-align: center;
+            border-top: 4px solid black;
+            border-bottom: 2px solid black;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:visited{
+            text-decoration: none;
+            color: rgb(218, 218, 218);
+        }
+        #name{
+            font-size: 20; 
+            text-align: center;
+            margin-left: -75;
+            color: black;
+        }
+        #vertical{
+            border-left: 2px solid black; 
+            height: 8.4%; 
+            position:absolute; 
+            margin-top: -46;
+            left: 15.3%;
+        }
+        #info{
+            font-size: 23;
+            margin-top: 27%;
+        }
+        #picture{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            border: 2px solid black;
+        }
+        #left{
+            float: left;
+            width: 49%;
+        }
+        #right{
+            font-size: 24;
+            float: right;
+            width: 50%;
+            text-align: center;
+            border: 2px solid black;
+            background-color: white;
+        }
+        .websites{
+            text-align: left;
+            margin-left: 42%;
+            margin-top: -1%;
+        }
+        #citation{
+            font-size: 8;
+            text-align: center;
+            margin-top: 0;
+        }
+        #next{
+            position: fixed;
+            bottom: 0px;
+            right: 0px; 
+            font-size: 20;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(215,215,215);">
+    <div id="topbar">
+        <span id="name"><b>COVID Severity Tester</b></span>
+        <div id="vertical"></div>
+        <a href="/Home.html"><span style="margin-left: 100;margin-right: 100;"><b>Home</b></span></a>
+        <a href="/Testing.html"><span style="margin-left: 100;margin-right: 100;"><b>Testing</b></span></a>
+        <a href="/MoreInfo.html"><span style="margin-left: 100;margin-right: 100;"><b>More Info</b></span></a>
+        <a href="/Contact.html"><span style="margin-left: 100;margin-right: 100;"><b>Contact</b></span></a>
+    </div>
+    <div id="left">
+        <img id="picture" src="Coronavirus-CDC-645x645.jpg" alt="Picture of Coronavirus" width="346" height="346">
+        <p id="citation">https://www.statnews.com/wp-content/uploads/2020/02/Coronavirus-CDC-645x645.jpg</p>
+    </div>
+    <div id="right">
+        <p id="more">Want more up to date news on COVID-19? Visit these websites:</p>
+        <a href="http://cdc.gov" target="blank" style="color: blue"><p class="websites">- CDC.gov</p></a>
+        <a href="http://nih.gov" target="blank" style="color: blue"><p class="websites">- NIH.gov</p></a>
+        <a href="https://www.worldometers.info/coronavirus/" target="blank" style="color: blue"><p class="websites">- Cases Update</p></a>
+        <a href="https://covid19.census.gov/" target="blank" style="color: blue"><p class="websites">- COVID-19 Census</p></a>
+        <a href="https://coronavirus.jhu.edu/map.html" target="blank" style="color: blue"><p class="websites">- COVID-19 Map</p></a>
+        <a href="https://www.osha.gov/SLTC/covid-19/" target="blank" style="color: blue"><p class="websites">- OSHA.gov</p></a>
+    </div>
+    <p id="info"><b>What is COVID-19?</b><br>
+        SARS-CoV-2 or more commonly known as COVID-19 or the coronavirus is a virus that emerged in China late 2019.
+        COVID causes many symptoms, some of which are breathing difficulties, diarrhea, fatigue, and
+        many more. COVID-19 can be very severe and in some cases cause death. COVID-19 can be spread
+        from one person to another. There is no cure or vaccine for COVID-19 right now, so the best way
+        to prevent it is to frequently wash your hands, maintain at least 6 feet of distance from other people, and
+        wear a cloth face covering when going outside. If you are sick, make sure you stay inside.<br>
+        <b>What does our tool do?</b><br>
+        Research shows that COVID itself has 6 different levels, each varying in symptoms and severity. This tool
+        allows you to choose the symptoms you have, and tells you the severity of your case.<br>
+        <b>Note:</b><br>
+        Use caution when using this tool. Do not use this website as a substitute for proper testing, as it is 
+        not 100% accurate. If you are ever feel that your symptoms are worsening, no matter the results of the test, 
+        immediately see a doctor. Again, this test is not 100% accurate.
+    </p>
+    <button onclick="location.href='Testing.html'" type="button" id="next">Next</button>
+</body>
+</html>
