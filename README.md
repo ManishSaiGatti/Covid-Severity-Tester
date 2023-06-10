@@ -1,1 +1,2 @@
 # Covid-Severity-Tester
+This website tells you how severe your case of COVID is depending on your inputted symptoms. It also includes some general information on COVID and links to credible websites for more information. HTML was used for the UI, CSS was used for formatting, design and styles, and JavaScript was used for the testing algorithm. Used HTML and CSS to create GUI/layout of the website and used JavaScript and credible sources such as CDC.gov to create the testing algorithm.
